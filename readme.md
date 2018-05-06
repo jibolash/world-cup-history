@@ -29,23 +29,21 @@ worldCupHistory.year(1934);
 ```
 
 The line of code above will return the following
-```js
-/*
+```shell
 {
-        hostCountry: 'Italy',
-        winner: 'Italy',
-        runnerUp: 'Czechoslovakia',
-        topGoalScorer: [
-			{ 
-			name: 'Oldřich Nejedlý', 
-			country: 'Czechoslovakia', 
-			numberOfGoals: 5 
-			}
-		],
-        totalAttendance: 363000,
-        numberOfMatches: 17
+	hostCountry: 'Italy',
+	winner: 'Italy',
+	runnerUp: 'Czechoslovakia',
+	topGoalScorer: [
+		{ 
+		name: 'Oldřich Nejedlý', 
+		country: 'Czechoslovakia', 
+		numberOfGoals: 5 
+		}
+	],
+	totalAttendance: 363000,
+	numberOfMatches: 17
 }
-*/
 ```
 The following keys gives us data for each tournament year
 - `hostCountry`
