@@ -45,12 +45,12 @@ console.log(worldCupHistory[year]);
 */
 ```
 The following keys gives us data for each tournament year
-- hostCountry
-- winner
-- runnerUp
-- topGoalScorer
-- totalAttendance
-- numberOfMatches
+- `hostCountry`
+- `winner`
+- `runnerUp`
+- `topGoalScorer`
+- `totalAttendance`
+- `numberOfMatches`
 
 The followings are examples of the usage of all the keys listed above
 ```js
