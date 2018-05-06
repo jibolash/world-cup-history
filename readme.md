@@ -29,7 +29,7 @@ worldCupHistory.year(1934);
 ```
 
 The line of code above will return the following
-```shell
+```js
 {
 	hostCountry: 'Italy',
 	winner: 'Italy',
