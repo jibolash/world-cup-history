@@ -69,7 +69,7 @@ console.log(worldCupHistory.year(1986).numberOfMatches); // 52
  - The World cup is traditionally hosted by only one country. The exception is 2002 when South Korea and Japan were co-hosts. The two countries are separed by a Comma in this package. Some string manipuation (e.g [str.split([separator[, limit]])](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)) might be needed for this special case if you are interested in getting the countries as separate values.
 
 ---
-I'm using the data in this package in an app. I thought other people might find it useful and decided to extract it into a package for others... and for myself.
+I used the data in this package in an app. I thought other people might find it useful and decided to extract it into a package for others... and for myself.
 
 [Mayowa Ajibola Sogbein](https://twitter.com/jibolash)
 
