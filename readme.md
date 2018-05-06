@@ -22,11 +22,14 @@ To use world-cup-history in a js file,
 ```js
 const worldCupHistory = require('world-cup-history');
 ```
-To get an object containing information about a world cup year, e.g 1934
+To get an object containing information about a world cup year, e.g 1934, 
 
 ```js
-const year = "1934";
-console.log(worldCupHistory[year]);
+worldCupHistory.year(1934);
+```
+
+The line of code above will return the following
+```js
 /*
 {
         hostCountry: 'Italy',
@@ -54,12 +57,12 @@ The following keys gives us data for each tournament year
 
 The followings are examples of the usage of all the keys listed above
 ```js
-console.log(worldCupHistory["1934"].winner); // Italy
-console.log(worldCupHistory["1966"].hostCountry); // England
-console.log(worldCupHistory["1978"].runnerUp); // Netherlands
-console.log(worldCupHistory["1994"].topGoalScorer[0].name); // Oleg Salenko
-console.log(worldCupHistory["1990"].totalAttendance); // 2516215
-console.log(worldCupHistory["1986"].numberOfMatches); // 52
+console.log(worldCupHistory.year(1934).winner); // Italy
+console.log(worldCupHistory.year(1966).hostCountry); // England
+console.log(worldCupHistory.year(1978).runnerUp); // Netherlands
+console.log(worldCupHistory.year(1994).topGoalScorer[0].name); // Oleg Salenko
+console.log(worldCupHistory.year(1990).totalAttendance); // 2516215
+console.log(worldCupHistory.year(1986).numberOfMatches); // 52
 ```
 
 ## Additional Information
