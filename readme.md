@@ -22,7 +22,7 @@ To use world-cup-history in a JavaScript file,
 ```js
 const worldCupHistory = require('world-cup-history');
 ```
-To get an object containing information about a world cup year, e.g 1934, 
+To get an object containing information about a world cup year, e.g 1978, 
 
 ```js
 worldCupHistory.year(1978);
