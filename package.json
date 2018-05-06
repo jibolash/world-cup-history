@@ -1,15 +1,19 @@
 {
   "name": "world-cup-history",
   "version": "1.0.3",
-  "description": "",
+  "description": "FIFA World cup historical data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mayowa Ajibola Sogbein",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/jibolash/world-cup-history"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.1.1"
   }
 }

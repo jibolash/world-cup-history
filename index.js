@@ -1,4 +1,4 @@
-var worldCups = {
+const worldCups = {
     '1930': {
         hostCountry: 'Uruguay',
         winner: 'Uruguay',
@@ -10,7 +10,7 @@ var worldCups = {
     '1934': {
         hostCountry: 'Italy',
         winner: 'Italy',
-        runnerUp: ' Czechoslovakia',
+        runnerUp: 'Czechoslovakia',
         topGoalScorer: [{ name: 'Oldřich Nejedlý', country: 'Czechoslovakia', numberOfGoals: 5 }],
         totalAttendance: 363000,
         numberOfMatches: 17
@@ -173,5 +173,6 @@ var worldCups = {
     },
 };
 
-module.exports = worldCups;
 
+
+module.exports = worldCups;
