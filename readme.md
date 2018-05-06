@@ -33,18 +33,26 @@ console.log(worldCupHistory[year]);
         winner: 'Italy',
         runnerUp: 'Czechoslovakia',
         topGoalScorer: [
-		{ 
-		name: 'Oldřich Nejedlý', 
-		country: 'Czechoslovakia', 
-		numberOfGoals: 5 
-		}
-	],
+			{ 
+			name: 'Oldřich Nejedlý', 
+			country: 'Czechoslovakia', 
+			numberOfGoals: 5 
+			}
+		],
         totalAttendance: 363000,
         numberOfMatches: 17
 }
-	*/
+*/
 ```
-A few more examples...
+The following keys gives us data for each tournament year
+- hostCountry
+- winner
+- runnerUp
+- topGoalScorer
+- totalAttendance
+- numberOfMatches
+
+The followings are examples of the usage of all the keys listed above
 ```js
 console.log(worldCupHistory["1934"].winner); // Italy
 console.log(worldCupHistory["1966"].hostCountry); // England
