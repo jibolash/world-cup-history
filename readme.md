@@ -18,7 +18,7 @@ $ npm install world-cup-history
 
 ## Usage
 
-To use world-cup-history in a js file,
+To use world-cup-history in a JavaScript file,
 ```js
 const worldCupHistory = require('world-cup-history');
 ```
@@ -45,7 +45,7 @@ The line of code above will return the following
 	numberOfMatches: 17
 }
 ```
-The following keys gives us data for each tournament year
+The keys listed below give us data for each tournament year
 - `hostCountry`
 - `winner`
 - `runnerUp`
@@ -53,7 +53,7 @@ The following keys gives us data for each tournament year
 - `totalAttendance`
 - `numberOfMatches`
 
-The followings are examples of the usage of all the keys listed above
+The following are examples of the usage of all the keys listed above
 ```js
 console.log(worldCupHistory.year(1934).winner); // Italy
 console.log(worldCupHistory.year(1966).hostCountry); // England
