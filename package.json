@@ -1,11 +1,12 @@
 {
   "name": "world-cup-history",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "FIFA World cup historical data",
   "keywords": [
     "fifa",
     "world cup",
-    "football"
+    "football",
+    "soccer"
   ],
   "main": "index.js",
   "scripts": {
