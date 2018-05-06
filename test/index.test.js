@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const worldCups = require('../index')
+const worldCups = require('../index');
 
 describe('The worldCups function', function() {
     it('returns the correct host of a tournament', function() {        
