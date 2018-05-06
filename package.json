@@ -1,6 +1,6 @@
 {
   "name": "world-cup-history",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "FIFA World cup historical data",
   "main": "index.js",
   "scripts": {
