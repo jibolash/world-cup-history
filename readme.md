@@ -25,24 +25,24 @@ const worldCupHistory = require('world-cup-history');
 To get an object containing information about a world cup year, e.g 1934, 
 
 ```js
-worldCupHistory.year(1934);
+worldCupHistory.year(1978);
 ```
 
 The line of code above will return the following
-```js
+```shell
 {
-	hostCountry: 'Italy',
-	winner: 'Italy',
-	runnerUp: 'Czechoslovakia',
+	hostCountry: 'Argentina',
+	winner: 'Argentina',
+	runnerUp: 'Netherlands',
 	topGoalScorer: [
 		{ 
-		name: 'Oldřich Nejedlý', 
-		country: 'Czechoslovakia', 
-		numberOfGoals: 5 
+		name: 'Mario Kempes', 
+		country: 'Argentina', 
+		numberOfGoals: 6 
 		}
 	],
-	totalAttendance: 363000,
-	numberOfMatches: 17
+	totalAttendance: 1545791,
+	numberOfMatches: 38
 }
 ```
 The keys listed below give us data for each tournament year
