@@ -18,9 +18,34 @@ $ npm install world-cup-history
 
 ## Usage
 
+To use world-cup-history in a js file,
 ```js
 const worldCupHistory = require('world-cup-history');
+```
+To get an object containing information about a world cup year, e.g 1934
 
+```js
+const year = "1934";
+console.log(worldCupHistory[year]);
+/*
+{
+        hostCountry: 'Italy',
+        winner: 'Italy',
+        runnerUp: 'Czechoslovakia',
+        topGoalScorer: [
+		{ 
+		name: 'Oldřich Nejedlý', 
+		country: 'Czechoslovakia', 
+		numberOfGoals: 5 
+		}
+	],
+        totalAttendance: 363000,
+        numberOfMatches: 17
+}
+	*/
+```
+A few more examples...
+```js
 console.log(worldCupHistory["1934"].winner); // Italy
 console.log(worldCupHistory["1966"].hostCountry); // England
 console.log(worldCupHistory["1978"].runnerUp); // Netherlands
