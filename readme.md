@@ -7,6 +7,9 @@
 	<br>
 </h1>
 
+world-cup-history is an npm package for FIFA World cup historical data.
+It contains information about the host country, winner, runner up, top goal scorer(s), attendance and number of matches
+played in every FIFA world cup tournament since 1930 when the first tournament held
 
 
 ## Install
