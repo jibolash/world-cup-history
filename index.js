@@ -172,6 +172,14 @@ function worldCups() {
       totalAttendance: 3429873,
       numberOfMatches: 64,
     },
+    2018: {
+      hostCountry: 'Russia',
+      winner: 'France',
+      runnerUp: 'Croatia',
+      topGoalScorer: [{ name: 'Harry Kane', country: 'England', numberOfGoals: 6 }],
+      totalAttendance: 3031768,
+      numberOfMatches: 64,
+    },
   };
 
   return {
