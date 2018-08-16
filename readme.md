@@ -31,7 +31,7 @@ To get an object containing information about a world cup year, e.g 1978,
 worldCupHistory.year(1978);
 ```
 
-The line of code above will return the following
+The line of code above will return the following object
 ```shell
 {
 	hostCountry: 'Argentina',
@@ -48,7 +48,7 @@ The line of code above will return the following
 	numberOfMatches: 38
 }
 ```
-The keys listed below give us data for each tournament year
+The keys listed below give us information for the selected tournament year
 - `hostCountry`
 - `winner`
 - `runnerUp`
@@ -58,12 +58,12 @@ The keys listed below give us data for each tournament year
 
 The following are examples of the usage of all the keys listed above
 ```js
-console.log(worldCupHistory.year(1934).winner); // Italy
-console.log(worldCupHistory.year(1966).hostCountry); // England
-console.log(worldCupHistory.year(1978).runnerUp); // Netherlands
-console.log(worldCupHistory.year(1994).topGoalScorer[0].name); // Oleg Salenko
-console.log(worldCupHistory.year(1990).totalAttendance); // 2516215
-console.log(worldCupHistory.year(1986).numberOfMatches); // 52
+worldCupHistory.year(1934).winner; // Who won the world cup in the 1934? 
+worldCupHistory.year(1966).hostCountry; // Which country hosted the world cup in 1966?
+worldCupHistory.year(1978).runnerUp; // Which country was the runner up in 1978?
+worldCupHistory.year(1994).topGoalScorer[0].name; // Who was the highest goal scorer at the 1994 world cup?
+worldCupHistory.year(1990).totalAttendance; // What was the total attendance for the world cup in 1990?
+worldCupHistory.year(1986).numberOfMatches; // How many matches were played at the 1986 world cup?
 ```
 
 ## Additional Information
