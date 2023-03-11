@@ -180,6 +180,14 @@ function worldCups() {
       totalAttendance: 3031768,
       numberOfMatches: 64,
     },
+    2022: {
+      hostCountry: 'Qatar',
+      winner: 'Argentina',
+      runnerUp: 'France',
+      topGoalScorer: [{ name: 'Kylian Mbappe', country: 'France', numberOfGoals: 8 }],
+      totalAttendance: 3404252,
+      numberOfMatches: 64,
+    },
   };
 
   return {
